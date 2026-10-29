@@ -1,0 +1,42 @@
+body {
+    font-family: "Lucida Sans", sans-serif;
+    background-image: url('backg.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Título h1 */
+h1 {
+    background-color: lightblue;
+    text-align: center;
+    border: 5px solid rgb(236, 32, 158);
+    padding: 10px;
+}
+
+h2 {
+    color: rgb(7, 7, 7);
+    text-align: center;
+    font-style: italic; /* cursiva */
+    text-decoration: underline; /* subrayado */
+}
+
+ul {
+    list-style-type: none; /* estilo de lista: ninguno */
+    text-align: center;
+}
+
+li {
+    display: inline-block; /* bloque en línea */
+    border: 2px solid rgb(236, 32, 158);
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: white;
+}
+
+/* Enlace (a) */
+a {
+    color: orangered;
+    text-decoration: none;
+}
